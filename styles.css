@@ -1,0 +1,475 @@
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /* Change favorite color */
+  --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --container-color: #fff;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+  :root {
+      --big-font-size: 3rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+  }
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth; 
+}
+
+h1, h2, h3, h4 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+/* INICIO HEADER */
+.nav{
+  background-color: #181818;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top:0;
+  z-index: 9;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 28px;
+}
+
+.nav-list a{
+  text-decoration: none;
+  color: #DDD;
+  padding: 20px;
+}
+
+.nav-list a:hover{
+  color: #FFFFFF;
+}
+/* FIM HEADER */
+
+
+/* INICIO MAIN */
+.main{
+  width: 100%;
+  background-color: #000;
+  height: calc(100vh - 80px);
+  background-image: url("images/programador.png");
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.main h1{
+  color: #FFFFFF;
+  font-size: 54px;
+}
+
+.main p {
+  font-size: 24px;
+  font-style: italic;
+  color: #1e96FC;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.call-to-action{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border:0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.9s;
+}
+
+.call-to-action:hover{
+  transform: scale(1.1);
+}
+
+.main a{
+  text-decoration: none;
+  color: #181818;
+}
+/* FIM MAIN */
+
+/* INICIO ABOUT */
+.about_container{
+  margin-left: 9rem;
+}
+
+.about_content{
+  grid-template-columns: .5fr 3fr;
+  padding-top: 0rem;
+  align-items: center;
+}
+
+.about_social{
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.about_social .iconify{
+  font-size: 2rem;
+  color: var(--first-color);
+  align-self: flex-start;
+}
+
+.about_content .about_img{
+  width: 250px;
+}
+
+.about_data{
+  grid-column: 1/3;
+}
+.about_title{
+  font-size: var(--big-font-size);
+}
+.about_subtitle{
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
+}
+
+.about_description{
+  margin-bottom: var(--mb-2)
+}
+
+/* FIM ABOUT */
+
+/*==================== BUTTONS ====================*/
+.button{
+  cursor: pointer;
+  background-color: var(--input-color);
+  border:0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.9s;
+  text-decoration: none;
+}
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.button_icon{
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+
+.button--white{
+  background-color: var(--body-color);
+  color: var(--first-color);
+}
+
+.button--white:hover{
+  background-color: rgb(130, 46, 226);
+  color: black;
+}
+
+.button--flex{
+  display: inline-flex;
+  align-items: center;
+  padding: 14px;
+}
+
+.button_small{
+  padding: .75rem 1rem;
+}
+
+.button_link{
+  padding: 0;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.button_link:hover{
+  background-color: transparent;
+  color: var(--first-color-alt);
+}
+
+/*==================== SKILLS ====================*/
+
+.section_title{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.subtitle{
+  margin: 10px;
+  text-align: center;
+}
+
+.skills_container{
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
+
+.skills_content{
+  background: rgb(1, 1, 3);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+}
+
+.skills_title{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills_box{
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.skills_group{
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills_data{
+  display: flex;
+  column-gap: 0.5rem;
+  font-size: 3rem;
+}
+
+.skills .iconify{
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.skills_name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
+}
+
+.skills_level{
+  font-size: var(--smaller-font-size);
+  color: white;
+}
+
+/*==================== END SKILLS ====================*/
+
+/* INICIO PROJECTS */
+.projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.projects h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.projects p{
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.project-list{
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects img{
+  width: 22%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  opacity: 0.8;
+  transition: 0.9s;
+}
+
+.projects img:hover{
+  opacity: 1;
+}
+
+.action{
+  background-color: #181818;
+  border:0;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 18px;
+  cursor: pointer;
+}
+/* FIM PROJECTS */
+
+/* INICIO RODAPE */
+footer{
+  width: 100%;
+  background-color: #181818;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p {
+  margin-left: 12px;
+}
+/* FIM RODAPE */
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1050px){
+  /* INICIO MAIN */
+  .main h1{
+    font-size: 45px;
+  }
+
+  .main p{
+    font-size: 18px;
+  }
+
+  .main{
+    background-size: cover;
+  }
+  /* FIM MAIN */
+
+  /* INICIO SOBRE */
+  .about{
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .about div{
+    max-width: 80%;
+  }
+
+  .about div h2{
+    font-size: 45px;
+  }
+
+  .about img{
+    width: 80%;
+    margin-top: 30px;
+  }
+  /* FIM SOBRE */
+
+  /* INICIO PROJETOS */
+  .projects img{
+    width: 27.5%;
+  }
+  /* FIM PROJETOS */
+
+  /* INICIO RODAPE */
+  footer{
+    flex-direction: column;
+  }
+
+  footer h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  footer p{
+    margin:0;
+  }
+  /* FIM RODAPE */
+
+}

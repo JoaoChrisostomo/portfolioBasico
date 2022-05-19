@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--==================== UNICONS ====================-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Meu portfolio</title>
+</head>
+
+<body>
+
+  <!-- INICIO HEADER -->
+  <nav class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#sobre">About</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#projetos">Galery</a>
+      </li>
+      <li>
+        <a href="#contato">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- FIM HEADER -->
+
+  <!-- INICIO MAIN -->
+  <section id="home" class="main">
+    <div>
+      <h1>Olá,<br>Seja bem vindo</h1>
+      <p>Crie soluções para seu negócio!</p>
+      <a href="#projetos">
+        <button class="call-to-action">
+          Veja meus projetos 👇
+        </button>
+      </a>
+    </div>
+  </section>
+  <!-- FIM MAIN -->
+
+  <!--==================== about ====================-->
+  <section class="about section" id="about">
+    <div class="about_container container grid">
+      <div class="about_content grid">
+        <img src="/images/animation-one.png" alt="" class="about_img">
+        <div class="about_data">
+          <h2 class="about_title">Hi, I'am John Pitter</h2>
+          <h3 class="about_subtitle">Frontend developer</h3>
+          <p class="about_description">Web developer, with extensive knoledge and years of experience, working
+            in web technologies and frontend and backend, delivery quality work
+          </p>
+          <a href="#contact" class="button button--flex">
+            Contact me
+            <i class='bx bx-message-rounded-dots button_icon'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INICIO SKILLS -->
+  <section class="skills section" id="skills">
+    <h2 class="section_title">Skills</h2>
+    <p class="subtitle">My Experience</p>
+
+
+    <div class="skills_container container grid">
+      <div class="skills_content">
+        <h3 class="skills_title">Frontend developer</h3>
+
+        <div class="skills_box">
+          <div class="skills_group">
+            <div class="skills_data">
+              <i class='bx bxl-html5 bx-tada' style='color:rgba(241,65,22,0.9)'></i>
+              <div>
+                <h3 class="skills_name">HTML</h3>
+                <span class="skills_level">Intermediario</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <i class='bx bxl-css3 bx-tada' style='color:rgba(115, 164, 230, 0.9)'></i>
+
+              <div>
+                <h3 class="skills_name">CSS</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <i class='bx bxl-javascript bx-tada' style='color:#f1ec1e'></i>
+
+              <div>
+                <h3 class="skills_name">JavaScript</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <i class='bx bxl-react bx-tada bx-rotate-270' style='color:#2da5bf'></i>
+
+              <div>
+                <h3 class="skills_name">React</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_group">
+            <div class="skills_data">
+              <i class='bx bxl-figma bx-tada' style='color:#9f62e0'></i>
+
+              <div>
+                <h3 class="skills_name">Figma</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <i class='bx bxl-sass bx-tada' style='color:rgba(247,69,213,0.9)'></i>
+
+              <div>
+                <h3 class="skills_name">SASS</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <i class='bx bxl-bootstrap bx-tada' style='color:rgba(228,212,228,0.9)'></i>
+
+              <div>
+                <h3 class="skills_name">Bootstrap</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <i class='bx bxl-git bx-tada' style='color:rgba(241,103,22,0.9)'></i>
+
+              <div>
+                <h3 class="skills_name">GIT</h3>
+                <span class="skills_level">Basic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIM SKILLS -->
+
+  <!-- INICIO PROJETOS -->
+  <section id="projetos" class="projects">
+    <h2>My Projects</h2>
+    <p>Conheça meus últimos projetos</p>
+
+    <div class="project-list">
+      <img src="images/projeto1.png" alt="Foto do projeto 1">
+      <img src="images/projeto2.png" alt="Foto do projeto 2">
+      <img src="images/projeto3.png" alt="Foto do projeto 3">
+    </div>
+
+    <div class="project-list">
+      <img src="images/projeto2.png" alt="Foto do projeto 2">
+      <img src="images/projeto1.png" alt="Foto do projeto 1">
+      <img src="images/projeto3.png" alt="Foto do projeto 3">
+    </div>
+
+    <button class="action">Faça um orçamento</button>
+  </section>
+  <!-- FIM PROJETOS -->
+
+  <!-- INICIO RODAPE -->
+  <footer>
+    <h3>
+      <a href="#">Joao Pedro</a>
+    </h3>
+    <p>Todos direitos reservados!</p>
+  </footer>
+  <!-- FIM RODAPE -->
+  <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+</body>
+
+</html>
