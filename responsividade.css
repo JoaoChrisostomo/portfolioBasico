@@ -1,0 +1,109 @@
+@media (max-width: 1050px) {
+
+    .nav{
+        position: fixed;
+    }
+    .about_container {
+        margin-left: -1.0rem;
+    }
+
+    .about div h2 {
+        font-size: 30px;
+    }
+
+    .about img {
+        width: 60%;
+    }
+
+    .projects img {
+        width: 27.5%;
+    }
+
+    footer {
+        height: 100px;
+        padding: 40px 0;
+        flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .nav{
+        z-index: 10;
+    }
+    .nav ul {
+        font-size: 1.3rem;
+    }
+    #home h1{
+        margin-top: -5rem;
+    }
+
+    .group_info {
+        margin-top: 8rem;
+    }
+
+    .about_title {
+        font-size: 2rem;
+    }
+
+    .about_description {
+        padding-right: 36rem;
+        font-size: 1.2rem;
+    }
+
+    .skills_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills_content {
+        width: 65%;
+        align-items: center;
+        margin: 3rem;
+    }
+
+    .skills_group {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .skills_data {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #home{
+        height: 75vh;
+    }
+    #home h1{
+        margin-top: -1rem;
+    }
+    .about_description {
+        padding-right: 10%;
+        font-size: 1.2rem;
+    }
+
+    .content_input{
+        width: 80%;
+    }
+    textarea{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #home h1{
+        margin-top: 11rem;
+    }
+}
