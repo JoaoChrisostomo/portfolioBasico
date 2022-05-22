@@ -295,6 +295,7 @@ small {
 
 .section_title {
   font-size: var(--h1-font-size);
+  margin-bottom: 3rem;
 }
 
 .skills_content {
@@ -380,6 +381,10 @@ small {
 
 .photo:hover{
   opacity: 0.8;
+}
+.title_galery{
+  text-align: center;
+  margin-top: 5rem;
 }
 
 /* FIM PROJECTS */
