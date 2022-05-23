@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsividade.css" />
 
-    <title>Meu portfolio</title>
+    <title>My Portfolio</title>
   </head>
 
   <body>
@@ -46,20 +46,21 @@
       <nav class="nav">
         <ul class="nav-list">
           <li>
-            <a href="#home" target="_blank">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#sobre" target="_blank">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#skills" target="_blank">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#projetos" target="_blank">Galery</a>
+            <a href="#galery">Galery</a>
           </li>
           <li>
-            <a href="#contato" target="_blank">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
+          <i class="bx bx-down-arrow-alt" style="color: #ffffff"></i>
         </ul>
       </nav>
       <!-- FIM NAVIGATION -->
@@ -67,14 +68,14 @@
       <!-- INICIO HOME -->
       <section id="home">
         <div class="group_info">
-          <h1 type="text">Olá,<br />Seja bem vindo</h1>
-          <p>Crie soluções para seu negócio!</p>
-          <a href="#projetos" target="_blank">
+          <h1 type="text">Hello,<br />You Welcome</h1>
+          <p>Create solutions for your business!</p>
+          <a href="#galery">
             <button
               class="call_to__action"
               title="Este botão irá levar para Galeria de fotos"
             >
-              Veja minhas galerias 👇
+              See My Galleries 👇
             </button>
           </a>
         </div>
@@ -82,12 +83,12 @@
       <!-- FIM HOME -->
 
       <!-- INICIO ABOUT -->
-      <section class="about section" id="about">
+      <section class="about" id="about">
         <div class="about_container container grid">
           <div class="about_content grid">
             <div class="about_data">
               <img
-                src="/assets/images/animation-one.png"
+                src="/docs/assets/images/animation-one.png"
                 alt="foto de joao pedro em formato de anime"
                 class="about_img"
               />
@@ -100,18 +101,18 @@
                 Web developer, with extensive knoledge and years of experience,
                 working in web technologies and frontend and backend, delivery
                 quality work
-                <br>
-                <br>
+                <br />
+                <br />
                 Web developer, with extensive knoledge and years of experience,
                 Web developer, with extensive knoledge and years of experience,
                 Web developer, with extensive knoledge and years of experience,
                 Web developer
               </p>
-              <button href="#contact" class="button button--flex">
+              <button href="#contact" class="button">
                 Contact me
                 <i class="bx bx-message-rounded-dots button_icon"> </i>
               </button>
-              <button href="#contact" class="button button--flex">
+              <button href="#contact" class="button">
                 Github
                 <i class="bx bxl-github button_icon"></i>
               </button>
@@ -122,8 +123,8 @@
       <!-- FIM ABOUT -->
 
       <!-- INICIO SKILLS -->
-      <section class="skills">
-        <h2 class="section_title">Habilidades e Competências</h2>
+      <section class="skills" id="skills">
+        <h2 class="section_title">Skills and Competencies</h2>
         <div class="skills_content flex">
           <h3 class="skills_title">Frontend developer</h3>
           <div class="skills_box">
@@ -131,165 +132,145 @@
               <div class="skills_data">
                 <h3 class="skills_name">HTML</h3>
                 <i
-                  class="bx bxl-html5 bx-tada"
+                  class="bx bxl-html5"
                   style="color: rgba(241, 65, 22, 0.9)"
                 ></i>
-                <span class="skills_level">Intermediario</span>
+                <span class="skills_level">Intermediary</span>
               </div>
               <div class="skills_data">
                 <h3 class="skills_name">CSS</h3>
                 <i
-                  class="bx bxl-css3 bx-tada"
+                  class="bx bxl-css3"
                   style="color: rgba(115, 164, 230, 0.9)"
                 ></i>
                 <span class="skills_level">Basic</span>
               </div>
               <div class="skills_data">
                 <h3 class="skills_name">JavaScript</h3>
-                <i class="bx bxl-javascript bx-tada" style="color: #f1ec1e"></i>
+                <i class="bx bxl-javascript" style="color: #f1ec1e"></i>
                 <span class="skills_level">Basic</span>
               </div>
               <div class="skills_data">
                 <h3 class="skills_name">React</h3>
                 <i
-                  class="bx bxl-react bx-tada bx-rotate-270"
+                  class="bx bxl-react bx-rotate-270"
                   style="color: #2da5bf"
                 ></i>
                 <span class="skills_level">Basic</span>
               </div>
-              <div class="skills_data">
-                <h3 class="skills_name">Figma</h3>
-                <i class="bx bxl-figma bx-tada" style="color: #9f62e0"> </i>
-                <span class="skills_level">Basic</span>
+              <div class="skills_group">
+                <div class="skills_data">
+                  <h3 class="skills_name">SASS</h3>
+                  <i
+                    class="bx bxl-sass"
+                    style="color: rgba(247, 69, 213, 0.9)"
+                  ></i>
+                  <span class="skills_level">Basic</span>
+                </div>
+                <div class="skills_data">
+                  <h3 class="skills_name">Bootstrap</h3>
+                  <i
+                    class="bx bxl-bootstrap"
+                    style="color: rgba(228, 212, 228, 0.9)"
+                  ></i>
+                  <span class="skills_level">Basic</span>
+                </div>
+                <div class="skills_data">
+                  <h3 class="skills_name">GIT</h3>
+                  <i
+                    class="bx bxl-git"
+                    style="color: rgba(241, 103, 22, 0.9)"
+                  ></i>
+                  <span class="skills_level">Basic</span>
+                </div>
+                <div class="skills_data">
+                  <h3 class="skills_name">Figma</h3>
+                  <i class="bx bxl-figma" style="color: #9f62e0"> </i>
+                  <span class="skills_level">Basic</span>
+                </div>
               </div>
-              <div class="skills_data">
-                <h3 class="skills_name">SASS</h3>
-                <i
-                  class="bx bxl-sass bx-tada"
-                  style="color: rgba(247, 69, 213, 0.9)"
-                ></i>
-                <span class="skills_level">Basic</span>
-              </div>
-              <div class="skills_data">
-                <h3 class="skills_name">Bootstrap</h3>
-                <i
-                  class="bx bxl-bootstrap bx-tada"
-                  style="color: rgba(228, 212, 228, 0.9)"
-                ></i>
-                <span class="skills_level">Basic</span>
-              </div>
-              <div class="skills_data">
-                <h3 class="skills_name">GIT</h3>
-                <i
-                  class="bx bxl-git bx-tada"
-                  style="color: rgba(241, 103, 22, 0.9)"
-                ></i>
-                <span class="skills_level">Basic</span>
-              </div>
-              <div class="skills_data">
-                <h3 class="skills_name">GIT</h3>
-                <i
-                  class="bx bxl-git bx-tada"
-                  style="color: rgba(241, 103, 22, 0.9)"
-                ></i>
-                <span class="skills_level">Basic</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>
       <!-- FIM SKILLS -->
 
       <!-- INICIO PROJETOS -->
-      <h1 class="title_galery">Minhas Galerias</h1>
-      <div class="container">
+      <h1 class="title_galery">My Galleries</h1>
+      <div class="container" id="galery">
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto1.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto1.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto2.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto2.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto3.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto3.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto1.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto1.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto2.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto2.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto3.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto3.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto1.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto1.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto2.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto2.png" alt="" />
         </div>
 
         <div class="polaroid">
-          <img class="photo" src="/assets/images/projeto3.png" alt="" />
+          <img class="photo" src="/docs/assets/images/projeto3.png" alt="" />
         </div>
       </div>
-      <!-- <section class="projects">
-        <h2>My Galery</h2>
-        <p>Conheça meus últimos projetos</p>
-
-        <div class="project_list">
-          <img src="/assets/images/projeto1.png" alt="Foto do projeto 1" />
-          <img src="/assets/images/projeto2.png" alt="Foto do projeto 2" />
-          <img src="/assets/images/projeto3.png" alt="Foto do projeto 3" />
-        </div>
-
-        <div class="project_list">
-          <img src="/assets/images/projeto1.png" alt="Foto do projeto 1" />
-          <img src="/assets/images/projeto2.png" alt="Foto do projeto 2" />
-          <img src="/assets/images/projeto3.png" alt="Foto do projeto 3" />
-        </div>
-
-        <div class="project_list">
-          <img src="/assets/images/projeto1.png" alt="Foto do projeto 1" />
-          <img src="/assets/images/projeto2.png" alt="Foto do projeto 2" />
-          <img src="/assets/images/projeto3.png" alt="Foto do projeto 3" />
-        </div>
-        <button type="submit" class="btn_oferta">Faça um orçamento</button>
-      </section> -->
       <!-- FIM PROJETOS -->
 
       <!-- INICIO CONTATO -->
-      <form action="" class="form_container">
-        <h1>Contact me</h1>
-        <div class="content_input">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="name" />
-          <label for="email">Email</label>
+      <section id="contact">
+        <h1>Contact</h1>
+        <form class="form" id="form_main">
+          <label class="label">First name</label>
           <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="email@exemplo.com.br"
+            autocomplete="off"
+            name="Name"
+            id="Name"
+            class="input"
+            type="text"
           />
-          <label for="message">Message</label>
-          <div class="send_textarea">
-            <textarea
-              name="message"
-              id="message"
-              cols="90"
-              rows="15"
-              placeholder="Digite sua mensagem"
-            ></textarea>
-          </div>
-        </div>
-        <button type="submit" class="btn_send">Send</button>
-      </form>
+
+          <label class="label">Email address</label>
+          <input
+            autocomplete="off"
+            name="Email"
+            id="Email"
+            class="input"
+            type="email"
+          />
+
+          <label class="label">Message</label>
+          <textarea
+            class="text_msg"
+            autocomplete="off"
+            name="Message"
+            id="Message"
+            class="textarea"
+          ></textarea>
+          <button class="btn_send">
+            <i class="bx bx-envelope"></i>
+            Send
+          </button>
+        </form>
+      </section>
       <!-- FIM CONTATO -->
 
       <!-- INICIO RODAPE -->
@@ -297,17 +278,14 @@
         <h3>
           <a href="#">Joao Pedro</a>
         </h3>
-        <p>Todos direitos reservados!</p>
+        <p>All rights reserved!</p>
       </footer>
       <!-- FIM RODAPE -->
 
       <!--- INICIO SCRIPTS -->
       <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
-<<<<<<< HEAD
       <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
       <!--- FIM SCRIPTS -->
-=======
->>>>>>> main
     </main>
   </body>
 </html>

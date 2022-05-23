@@ -1,337 +1,10 @@
+/* @media screen and (max-width: 1440px){} */
+
 @media screen and (max-width: 1024px) {
 
-    .nav ul{
-        font-size: 1.3rem;
-        padding: 0;
-        gap: 0;
-    }
-    .nav-list a{
-        padding-right: 15px;
-    }
-
-    #home{
-        height: 500px;
-    }
-    #home h1{
-        font-size: 2.1rem;
-    }
-    .group_info{
-        margin-bottom: 20rem;
-    }
-
-    .about_content .about_img{
-        width: 30%;
-        object-fit: cover;
-    }
-    .about_description{
-        padding-right: -0;
-        font-size: 1.4rem;
-    }
-
-    .button_icon{
-        font-size: 1.9rem;
-    }
-
-    .about_data{
-        margin: 16px;
-    }
-
-    .call_to__action{
-        width: 80%;
-    }
-
-    .button--flex {
-        font-size: 1.6rem;
-        padding: 0.6rem 4rem;
-    }
-
-    .skills{
-        margin-top: 1rem;
-    }
-    .skills_box{
-        padding-left: 2.5rem;
-    }
-    .skills_data i{
-        padding: 0.9rem;
-    }
-    .skills_group{
-        align-items: center;
-        padding-left: 1.5rem;
-        gap: 2rem;
-    }
-    .section_title{
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-    }
-    .skills_content{
-        padding: 0;
-    }
-    .skills_data i{
-        font-size: 3rem;
-    }
-    /* INICIO CONTACT */
-    .btn_send{
-        font-size: 1.2rem;
-        margin-right: 4rem;
-    }
-    /* FIM CONTACT */
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .nav ul{
-        font-size: 1.3rem;
-        padding: 0;
-        gap: 0;
-    }
-    .nav-list a{
-        padding-right: 15px;
-    }
-
-    #home{
-        padding-top: 5rem;
-        height: 130vh;
-    }
-    #home h1{
-        font-size: 2.1rem;
-    }
-    .group_info{
-        margin-bottom: 15rem;
-    }
-
-    .about_data{
-        margin: 22px;
-    }
-
-    .call_to__action{
-        width: 80%;
-    }
-
-    .button--flex {
-        font-size: 1.5rem;
-        padding: 0.6rem 4rem;
-    }
-
-    .about_content .about_img{
-        width: 40%;
-        object-fit: cover;
-    }
-    .about_description{
-        padding-right: -0;
-        font-size: 1.4rem;
-    }
-
-    .button_icon{
-        font-size: 1.9rem;
-    }
-
-    .skills{
-        margin-top: 1rem;
-    }
-    .skills_box{
-        padding-left: 2.5rem;
-    }
-    .skills_data i{
-        padding: 0.9rem;
-    }
-    .skills_group{
-        align-items: center;
-        padding-left: 1.5rem;
-        gap: 2rem;
-    }
-    .section_title{
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-    }
-    .skills_content{
-        padding: 0;
-    }
-    .skills_data i{
-        font-size: 3rem;
-    }
-
-    /* INICIO CONTACT */
-    .form_container{
-        align-items: baseline;
-    }
-    .btn_send{
-        font-size: 1.2rem;
-        padding: 0.5rem 5.5rem;
-        margin-left: 16.5rem;
-    }
-    /* FIM CONTACT */
-
-}
-
-@media screen and (max-width: 425px){
-    .nav ul{
-        font-size: 1.3rem;
-        padding: 0;
-        gap: 0;
-    }
-    .nav-list a{
-        padding-right: 15px;
-    }
-
-    #home{
-        height: 130vh;
-    }
-    #home h1{
-        font-size: 2.1rem;
-    }
-    .group_info{
-        margin-bottom: 20rem;
-    }
-
-    .about_data{
-        margin: 16px;
-    }
-
-    .call_to__action{
-        width: 80%;
-    }
-
-    .button--flex {
-        font-size: 1.1rem;
-        padding: 0.6rem 2.3rem;
-    }
-
-    .about_content .about_img{
-        width: 70%;
-    }
-    .about_description{
-        padding-right: -0;
-        font-size: 1.0rem;
-    }
-
-    .button_icon{
-        font-size: 1.3rem;
-    }
-
-    .skills{
-        margin-top: 1rem;
-    }
-    .skills_box{
-        padding-left: 2.5rem;
-    }
-    .skills_data i{
-        padding: 0.9rem;
-    }
-    .skills_group{
-        align-items: center;
-        padding-left: 1.5rem;
-        gap: 2rem;
-    }
-    .section_title{
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-    }
-    .skills_content{
-        padding: 0;
-    }
-    .skills_data i{
-        font-size: 3rem;
-    }
-
-    /* INICIO CONTACT */
-    .form_container{
-        align-items: baseline;
-    }
-    .btn_send{
-        font-size: 1.2rem;
-        padding: 0.5rem 5.5rem;
-        margin-left: 6rem;
-    }
-    /* FIM CONTACT */
-
-}
-
-@media screen and (max-width: 375px) {
-    .nav ul{
-        font-size: 1.1rem;
-        padding: 0;
-        gap: 0;
-    }
-    .nav-list a{
-        padding-right: 15px;
-    }
-
-    #home{
-        height: 120vh;
-    }
-    #home h1{
-        font-size: 2.1rem;
-    }
-    .group_info{
-        margin-bottom: 20rem;
-    }
-
-    .about_data{
-        margin: 16px;
-    }
-
-    .call_to__action{
-        width: 80%;
-    }
-
-    .button--flex {
-        font-size: 1.2rem;
-        padding: 0.7rem;
-    }
-
-    .about_content .about_img{
-        width: 70%;
-    }
-    .about_description{
-        padding-right: -0;
-        font-size: 1.2rem;
-    }
-    .button_icon{
-        font-size: 1.3rem;
-    }
-
-    .skills{
-        margin-top: 1rem;
-    }
-    .skills_box{
-        padding-left: 1.5rem;
-    }
-    .skills_data i{
-        padding: 0.9rem;
-    }
-    .skills_group{
-        align-items: center;
-        padding-left: 1.5rem;
-        gap: 2rem;
-    }
-    .section_title{
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-    }
-    .skills_content{
-        padding: 0;
-    }
-    .skills_data i{
-        font-size: 3rem;
-    }
-    /* INICIO CONTACT */
-    .form_container{
-        align-items: baseline;
-    }
-    .btn_send{
-        font-size: 1.2rem;
-        padding: 0.5rem 5.5rem;
-        margin-left: 4.5rem;
-    }
-    /* FIM CONTACT */
-
-}
-
-@media screen and (max-width: 320px) {
     /* INICIO NAVIGATION */
     .nav ul{
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 0;
         gap: 0;
     }
@@ -342,36 +15,42 @@
 
     /* INICIO HOME */
     #home{
-        height: 120vh;
+        height: 100vh;
     }
     #home h1{
-        font-size: 2.1rem;
+        font-size: 1.6rem;
     }
-
     .group_info{
-        margin-bottom: 15rem;
+        margin-bottom: 10rem;
     }
-
+    #home p {
+        font-size: 1.2rem;
+    }
     .call_to__action{
-        width: 80%;
+        font-size: 1.2rem;
+        width: 50%;
     }
     /* FIM HOME */
 
     /* INICIO ABOUT */
     .about_content{
-        margin: 16px;
-    }
-    .button--flex {
-        font-size: 1.0rem;
-        padding: 0.5rem;
+        margin: 8px;
+        letter-spacing: 0.2px;
     }
 
-    .about_content .about_img{
-        width: 70%;
+    .about_title {
+        font-size: 1.3rem;
     }
+    .about_subtitle, small{
+        font-size: 0.9rem;
+    }
+    .about_data{
+        margin-bottom: 9rem;
+    }
+
     .about_description{
-        padding-right: -0;
-        font-size: 1.0rem;
+        padding-right: 6rem;
+        font-size: 0.9rem;
     }
     .button_icon{
         font-size: 1.3rem;
@@ -379,32 +58,575 @@
     /* FIM ABOUT */
 
     /* INICIO SKILLS */
-    .skills{
-        margin-top: 1rem;
-    }
-    .skills_box{
-        padding-left: 3rem;
-    }
     .section_title{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
+        margin-top: 5rem;
     }
-    .skills_content{
-        padding: 0;
+
+    .skills_box{
+        margin-right: 4rem;
+    }
+    .skills_group{
+        gap: 2.5rem;
     }
     .skills_data i{
         font-size: 3rem;
     }
+    .skills_title{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .skills_name{
+        font-size: 0.8rem;
+    }
     /* FIM SKILLS */
 
-    /* INICIO CONTACT */
-    .form_container{
-        align-items: baseline;
+    /* INICIO PROJECTS */
+    .title_galery{
+        font-size: 1.6rem;
     }
+    /* FIM PROJECTS */
+
+    /* INICIO CONTACT */
+    #contact h1{
+        font-size: 1.4rem;
+    }
+    #contact{
+        width: 80%;
+        left: 10%;
+    }
+
     .btn_send{
-        font-size: 1.2rem;
-        padding: 0.5rem 5.5rem;
+        font-size: 1.0rem;
+        padding: 0.5rem 0.9rem;
         margin-left: 3rem;
     }
+    /* FIM CONTACT */
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* INICIO NAVIGATION */
+    .nav ul {
+        font-size: 1rem;
+        padding: 0;
+        gap: 0;
+    }
+
+    .nav-list a {
+        padding-right: 12px;
+    }
+
+    /* FIM NAVIGATION */
+
+    /* INICIO HOME */
+    #home {
+        height: 100vh;
+    }
+
+    #home h1 {
+        font-size: 1.6rem;
+    }
+
+    .group_info {
+        margin-bottom: 10rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+
+    .call_to__action {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+    /* FIM HOME */
+
+    /* INICIO ABOUT */
+    .about_content {
+        margin: 8px;
+        letter-spacing: 0.2px;
+    }
+
+    .about_title {
+        font-size: 1.3rem;
+    }
+
+    .about_subtitle,
+    small {
+        font-size: 0.9rem;
+    }
+
+    .about_data {
+        margin-bottom: 9rem;
+    }
+
+    .about_description {
+        padding-right: 6rem;
+        font-size: 0.9rem;
+    }
+
+    .button_icon {
+        font-size: 1.3rem;
+    }
+
+    /* FIM ABOUT */
+
+    /* INICIO SKILLS */
+    .section_title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+    }
+
+    .skills_box {
+        margin-right: 4rem;
+    }
+
+    .skills_group {
+        gap: 2.5rem;
+    }
+
+    .skills_data i {
+        font-size: 3rem;
+    }
+
+    .skills_title {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .skills_name {
+        font-size: 0.8rem;
+    }
+
+    /* FIM SKILLS */
+
+    /* INICIO PROJECTS */
+    .title_galery {
+        font-size: 1.6rem;
+    }
+
+    /* FIM PROJECTS */
+
+    /* INICIO CONTACT */
+    #contact h1 {
+        font-size: 1.4rem;
+    }
+
+    #contact {
+        width: 80%;
+        left: 10%;
+    }
+
+    .btn_send {
+        font-size: 1.0rem;
+        padding: 0.5rem 0.9rem;
+        margin-left: 3rem;
+    }
+
+    /* FIM CONTACT */
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+    /* INICIO NAVIGATION */
+    .nav ul {
+        font-size: 1rem;
+        padding: 0;
+        gap: 0;
+    }
+
+    .nav-list a {
+        padding-right: 4px;
+    }
+
+    /* FIM NAVIGATION */
+
+    /* INICIO HOME */
+    #home {
+        height: 100vh;
+    }
+
+    #home h1 {
+        font-size: 1.4rem;
+    }
+
+    .group_info {
+        margin-bottom: 16rem;
+    }
+
+    #home p {
+        font-size: 1.0rem;
+    }
+
+    .call_to__action {
+        font-size: 1.1rem;
+        width: 60%;
+    }
+
+    /* FIM HOME */
+
+    /* INICIO ABOUT */
+    .about_content {
+        width: 500px;
+        margin: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    .about_title {
+        font-size: 1.3rem;
+    }
+
+    .about_subtitle,
+    small {
+        font-size: 0.9rem;
+    }
+
+    .about_data {
+        margin-bottom: 9rem;
+    }
+
+    .about_description {
+        padding-right: 6rem;
+        font-size: 0.9rem;
+    }
+
+    .button_icon {
+        font-size: 1.3rem;
+    }
+
+    /* FIM ABOUT */
+
+    /* INICIO SKILLS */
+    .section_title {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+    }
+
+    .skills_box {
+        margin-right: 4rem;
+    }
+
+    .skills_group {
+        gap: 2.5rem;
+    }
+
+    .skills_data i {
+        font-size: 3rem;
+    }
+
+    .skills_title {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    .skills_name {
+        font-size: 0.8rem;
+    }
+
+    /* FIM SKILLS */
+
+    /* INICIO PROJECTS */
+    .title_galery {
+        font-size: 1.1rem;
+    }
+
+    /* FIM PROJECTS */
+
+    /* INICIO CONTACT */
+    #contact h1 {
+        font-size: 1.4rem;
+    }
+
+    #contact {
+        left: 10%;
+    }
+
+    .btn_send {
+        font-size: 1.0rem;
+        padding: 0.5rem 0.9rem;
+        margin-left: 3rem;
+    }
+
+    /* FIM CONTACT */
+
+}
+
+@media screen and (max-width: 375px) {
+
+    /* INICIO NAVIGATION */
+    .nav ul {
+        font-size: 0.8rem;
+        padding: 0;
+        gap: 0;
+    }
+
+    .nav-list a {
+        padding-right: 4px;
+    }
+
+    /* FIM NAVIGATION */
+
+    /* INICIO HOME */
+    #home {
+        height: 100vh;
+    }
+
+    #home h1 {
+        font-size: 1.4rem;
+    }
+
+    .group_info {
+        margin-bottom: 16rem;
+    }
+
+    #home p {
+        font-size: 1.0rem;
+    }
+
+    .call_to__action {
+        font-size: 1.1rem;
+        width: 60%;
+    }
+
+    /* FIM HOME */
+
+    /* INICIO ABOUT */
+    .about_content {
+        width: 250px;
+        margin: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .about_title {
+        font-size: 1.1rem;
+    }
+
+    .about_subtitle {
+        font-size: 0.8rem;
+    }
+
+    small {
+        font-size: 0.8rem;
+    }
+
+    .about_data {
+        margin-bottom: 9rem;
+    }
+
+    .about_description {
+        padding-right: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .button_icon {
+        font-size: 1.3rem;
+    }
+
+    /* FIM ABOUT */
+
+    /* INICIO SKILLS */
+    .section_title {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+    }
+
+    .skills_box {
+        margin-right: 4rem;
+    }
+
+    .skills_group {
+        gap: 2.5rem;
+    }
+
+    .skills_data i {
+        font-size: 3rem;
+    }
+
+    .skills_title {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    .skills_name {
+        font-size: 0.8rem;
+    }
+
+    /* FIM SKILLS */
+
+    /* INICIO PROJECTS */
+    .title_galery {
+        font-size: 1.1rem;
+    }
+
+    /* FIM PROJECTS */
+
+    /* INICIO CONTACT */
+    #contact h1 {
+        font-size: 1.4rem;
+    }
+
+    #contact {
+        left: 5%;
+    }
+
+    .input,
+    textarea {
+        width: 95%;
+        left: 15px;
+    }
+
+    .btn_send {
+        font-size: 1.0rem;
+        padding: 0.5rem 0.9rem;
+        margin-left: 3rem;
+    }
+
+    /* FIM CONTACT */
+}
+
+@media screen and (max-width: 320px) {
+
+    /* INICIO NAVIGATION */
+    .nav ul {
+        font-size: 0.7rem;
+        padding: 0;
+        gap: 0;
+    }
+
+    .nav-list a {
+        padding-right: 0px;
+    }
+
+    /* FIM NAVIGATION */
+
+    /* INICIO HOME */
+    #home {
+        height: 100vh;
+    }
+
+    #home h1 {
+        font-size: 1.0rem;
+    }
+
+    .group_info {
+        margin-bottom: 18rem;
+    }
+
+    #home p {
+        font-size: 0.8rem;
+    }
+
+    .call_to__action {
+        font-size: 0.9rem;
+        width: 60%;
+    }
+
+    /* FIM HOME */
+
+    /* INICIO ABOUT */
+    .about_content {
+        width: 250px;
+        margin: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .about_title {
+        font-size: 1.1rem;
+    }
+
+    .about_subtitle {
+        font-size: 0.8rem;
+    }
+
+    small {
+        font-size: 0.8rem;
+    }
+
+    .about_data {
+        margin-bottom: 9rem;
+    }
+
+    .about_description {
+        padding-right: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .button_icon {
+        font-size: 1.3rem;
+    }
+
+    /* FIM ABOUT */
+
+    /* INICIO SKILLS */
+    .section_title {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+    }
+
+    .skills_box {
+        padding-left: 0rem;
+    }
+
+    .skills_group {
+        padding-left: 0.5rem;
+        gap: 2rem;
+    }
+
+    .skills_content {
+        padding: 0;
+    }
+
+    .skills_data i {
+        font-size: 3rem;
+    }
+
+    .skills_title {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    .skills_name {
+        font-size: 0.8rem;
+    }
+
+    /* FIM SKILLS */
+
+    /* INICIO PROJECTS */
+    .title_galery {
+        font-size: 1.1rem;
+    }
+
+    /* FIM PROJECTS */
+
+    /* INICIO CONTACT */
+    #contact h1 {
+        font-size: 1.4rem;
+    }
+
+    #contact {
+        left: 0%;
+    }
+
+    .input,
+    textarea {
+        width: 90%;
+    }
+
+    .btn_send {
+        font-size: 1.0rem;
+        padding: 0.5rem 0.8rem;
+        margin-left: 2.0rem;
+    }
+
     /* FIM CONTACT */
 }
