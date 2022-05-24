@@ -7,32 +7,14 @@
 }
 
 :root {
-  --header-height: 3rem;
-
-  /*========== Colors ==========*/
-  /* Change favorite color */
   --hue-color: 250;
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-
-  /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-
-  /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-  --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -54,11 +36,6 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
-
-  /*========== z index ==========*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-  --z-modal: 1000;
 }
 
 /* Font size for large devices */
@@ -72,7 +49,6 @@ html {
   text-transform: uppercase;
   letter-spacing: 2.5px;
 }
-
 
 small {
   color: var(--title-color);
@@ -90,7 +66,6 @@ small {
   box-shadow: 0px 0px 25px -10px #00000031;
   background-color: #4b4b4b31;
   backdrop-filter: blur(6px);
-  /* ou pode ser usado o filter */
   font-size: var(--h3-font-size);
   color: rgb(84, 79, 79);
   z-index: 5000;
@@ -119,10 +94,6 @@ small {
   color: white;
 }
 
-/* FIM NAVIGATION */
-
-
-/* INICIO HEADER */
 #home {
   width: 100%;
   height: 130vh;
@@ -156,11 +127,7 @@ small {
   color: #181818;
 }
 
-/* FIM HOME */
-
-/* INICIO ABOUT */
-
-.about_container{
+.about_container {
   position: relative;
 }
 
@@ -182,7 +149,7 @@ small {
   margin-top: var(--mb-0-5);
 }
 
-.about_data{
+.about_data {
   margin-top: 14rem;
 }
 
@@ -201,9 +168,6 @@ small {
   color: black
 }
 
-/* FIM ABOUT */
-
-/* INICIO BUTTONS */
 .button {
   --color: #560bad;
   font-family: inherit;
@@ -353,9 +317,6 @@ small {
   transform: translate(0, 5%);
 }
 
-/* FIM BUTTONS */
-
-/*==================== SKILLS ====================*/
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -428,9 +389,6 @@ small {
   color: white;
 }
 
-/*==================== END SKILLS ====================*/
-
-/* INICIO PROJECTS */
 .container {
   margin: auto;
   max-width: 1200px;
@@ -464,9 +422,6 @@ small {
   text-align: center;
   margin-top: 10rem;
 }
-/* FIM PROJECTS */
-
-/* INICIO CONTACT */
 
 #contact {
   background-color: rgba(55, 5, 98, 0.4);
@@ -482,29 +437,32 @@ small {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
-#form_main{
+
+#form_main {
   display: flex;
   flex-direction: column;
 }
-#contact h1{
+
+#contact h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: var(--font-medium);
-  color: black ;
+  color: black;
   margin-bottom: 1rem;
 }
 
-.input, textarea {
+.input,
+textarea {
   width: 100%;
   height: 40px;
   background-color: #0000000a;
   border-radius: .5rem;
   border: 2px solid #636262;
   font-size: 1rem;
-  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  transition: border-color .3s cubic-bezier(.25, .01, .25, 1) 0s, color .3s cubic-bezier(.25, .01, .25, 1) 0s, background .2s cubic-bezier(.25, .01, .25, 1) 0s;
 }
 
-.text_msg{
+.text_msg {
   height: 180px;
 }
 
@@ -515,29 +473,31 @@ small {
   font-size: .9rem;
   font-weight: bold;
   color: #05060f99;
-  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
 }
 
-.input:hover, .input:focus, textarea:hover, .input-group:hover .input {
+.input:hover,
+.input:focus,
+textarea:hover,
+.input-group:hover .input {
   outline: none;
   border-color: #05060f;
 }
 
-.input-group:hover .label, textarea, .input:focus {
+.input-group:hover .label,
+textarea,
+.input:focus {
   color: #05060fc2;
 }
 
-/* FIM CONTACT */
-
-
-/* INICIO RODAPE */
 footer {
   width: 100%;
   height: 10vh;
   background-color: #181818;
   color: #FFFFFF;
 }
-.content_footer{
+
+.content_footer {
   display: flex;
   align-self: baseline;
   justify-content: space-between;
@@ -549,5 +509,3 @@ footer {
 footer p {
   margin-left: 12px;
 }
-
-/* FIM RODAPE */
