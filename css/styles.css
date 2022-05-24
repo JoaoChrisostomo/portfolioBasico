@@ -126,7 +126,7 @@ small {
 #home {
   width: 100%;
   height: 130vh;
-  background-image: url("/docs/assets/images/programador.png");
+  background-image: url("/images/programador.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
